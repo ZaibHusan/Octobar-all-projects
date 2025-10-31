@@ -1,0 +1,89 @@
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* App container */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+  color: white;
+}
+
+/* Title */
+.App h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #00c2ff;
+  letter-spacing: 1px;
+}
+
+/* Input container */
+.input {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 194, 255, 0.2);
+  width: 90%;
+  max-width: 350px;
+  text-align: center;
+}
+
+/* Labels */
+.input label {
+  display: block;
+  font-size: 0.9rem;
+  margin: 10px 0 5px;
+  color: #ccc;
+}
+
+/* Inputs */
+.input input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.input input:focus {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Button */
+.input button {
+  width: 100%;
+  padding: 10px;
+  background: #00c2ff;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+.input button:hover {
+  background: #00a3dd;
+}
+
+/* Result text */
+.input p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #00ffba;
+  font-weight: bold;
+}

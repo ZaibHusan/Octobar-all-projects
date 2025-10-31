@@ -1,0 +1,69 @@
+.Offer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.852);
+    padding: 0px 15%;
+    height: 60vh;
+}
+
+.boxs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.3%;
+
+
+}
+
+.box {
+    height: 90%;
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid white;
+}
+
+
+
+.over1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    top: 450px;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    gap: 5px;
+ background-color: rgba(0, 102, 204, 0.5);
+}
+
+.over1 img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.boximg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+
+}
+
+.box:hover .over1{
+    top: 0px;
+}
+

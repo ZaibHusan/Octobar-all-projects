@@ -1,0 +1,101 @@
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+background-color: rgba(0, 0, 0, 0.712);
+
+
+}
+
+
+.Title{
+    width: 100%;
+    height: 30vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.864), rgba(0, 0, 0, 0.327)), url("Artificial-Intelligence.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+    
+
+}
+.Title h1{
+    color: white;
+    font-size: 5em;
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+.Title p{
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 2em;
+    text-align: center;
+    font-family: Geneva, Verdana, sans-serif;
+}
+.red{
+    color: red;
+   text-decoration: none;
+
+}
+.Mation{
+    width: 50%;
+    height: 40vh;
+    padding: 0px 20px;
+    color: rgba(255, 255, 255, 0.879);
+background-color: rgba(0, 0, 255, 0.758);
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Mation h2{
+    font-size: 3em;
+    font-weight: bold;
+    margin: 20px 0px;
+
+}  
+.Mation p{
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-family:  Verdana, sans-serif;
+}
+.Mation p .red{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.Mation p:hover{
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.Quick-question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 50%;
+    width: 100%;
+    background-color: rgba(255, 191, 0, 0.648);
+    margin-top: 10px;
+    padding: 20px;
+}
+.Quick-question .question1{
+    width: 80%;
+    height: 70px;
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.638);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    font-size: 1.5em;
+    padding: 10px ;
+}
+.question1 p{
+     color: white;
+}
+.answer{
+    color: rgba(255, 255, 255, 0.382);
+}

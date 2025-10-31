@@ -1,0 +1,43 @@
+.vc_card {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/12;
+    padding-bottom: 50px;
+}
+
+.vc_banner {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.vc_banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vc_box {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    height: 30%;
+}
+
+.vc_details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.vc_title {
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.vc_channel_name,
+.vc_time {
+    color: rgba(255, 255, 255, 0.723);
+}

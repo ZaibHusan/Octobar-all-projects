@@ -1,0 +1,56 @@
+.see_more button img{
+    width: 50px;
+    height: 50px;
+}
+
+.Student {
+    width: 100%;
+    height: 70vh;
+    padding: 5vh 10%;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-color: rgba(0, 0, 0, 0.852);
+}
+.Student_boxs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.Student_box{
+    width: 20%;
+    height: 80%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.Student_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.see_more button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    padding: 7px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+}
+
+.see_more button img{
+    width: 2em;
+    height: 2em;
+    filter: invert(100%);
+}

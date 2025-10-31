@@ -1,0 +1,36 @@
+.Process{
+    height: 30vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.box{
+    width: 25%;
+    height: 80%;
+    background-color:#1E1E1E;
+   border: 1px solid #3B82F6;
+   text-align: center;
+   padding: 20px;
+   border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   size: 20px;
+   color: white;
+  /* AI add a white type shadow looking like a batery */
+
+};
+.box h2{
+    font-size: 2em;
+    margin-bottom: 190px;
+}
+.box p{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+

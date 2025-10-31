@@ -1,0 +1,58 @@
+.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.Navbar img {
+    width: 50px;
+    height: 50px;
+}
+
+.Navbar ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+}
+
+.Navbar ul li {
+    list-style: none;
+    
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px black;
+}
+
+
+
+.logo .edu {
+  color:yellow; /* Education blue */
+    font-size: 1.5em;
+}
+
+.logo .karkabanj {
+  color: white; /* Strong black */
+      font-size: 1.5em;
+}
+
+
+.Back {
+  background: linear-gradient(180deg, #4b0082 0%, #6a0dad 100%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}

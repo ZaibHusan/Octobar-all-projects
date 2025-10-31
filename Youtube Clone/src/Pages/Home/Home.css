@@ -1,0 +1,7 @@
+.Home {
+     background-color: #0F0F0F;
+    width: 100%;
+    color: white;
+    display: flex;
+    gap: 5px;
+}

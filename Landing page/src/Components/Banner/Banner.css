@@ -1,0 +1,85 @@
+.Banner {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    gap: 5px;
+    background: rgba(0, 0, 0, 0.142);
+}
+
+.title {
+    font-size: 60px
+}
+
+.p {
+    color: rgba(255, 255, 255, 0.945);
+    font-size: 1.5em;
+}
+
+.buys {
+    margin-top: 10px;
+    background: linear-gradient(135deg, #ff7b00, #ff4500);
+    /* orange gradient */
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.buys:hover {
+    background: linear-gradient(135deg, #ff9a33, #ff5a1f);
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.buys:active {
+    transform: scale(0.95);
+}
+
+
+.videos {
+    position: relative;
+    background-color: rgba(8, 8, 8, 0.022);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+}
+
+.dots{
+
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+
+}
+
+.dots li {
+    width: 15px;
+    height: 15px;
+
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.videos img {
+    width: 50px;
+    height: 50px;
+}
+
+.Red{
+    background-color: red;
+}
+.brown{
+    
+    background-color: #ff440000;
+}

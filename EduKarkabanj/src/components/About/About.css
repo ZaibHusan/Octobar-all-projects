@@ -1,0 +1,45 @@
+.About {
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.852);
+    padding: 5vh 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    color: white;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+}
+
+.left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.right{
+    width: 80%;
+    height: 100%;
+    padding: 20px 1px;
+}
+
+.right h2{
+    color: yellow;
+    
+}
+.right h1{
+    color:rgb(255, 255, 255);
+    margin-top: 10px;
+    width: 80%;
+}
+
+.right p{
+        color:rgba(255, 255, 255, 0.826);
+   margin: 20px 10px;
+   line-height: 22px;
+}

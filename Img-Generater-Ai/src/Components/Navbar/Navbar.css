@@ -1,0 +1,65 @@
+.navbar {
+    display: flex;
+    height: 9vh;
+    background-color: rgb(22, 19, 19);
+    color: #fff;
+    padding: 0 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    list-style: none;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 7vh;
+    color: black;
+    gap: 40px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.navbar ul a {
+    cursor: pointer;
+   color: black;
+}
+
+.navbar ul li:hover {
+    color: rgb(22, 19, 19);
+    transform: scale(1.1);
+    
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.navbar ul:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.navbar button {
+    padding: 0.2rem 1rem;
+    background-color: rgb(22, 19, 19);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.active {
+    border-bottom: 3px solid red;
+}

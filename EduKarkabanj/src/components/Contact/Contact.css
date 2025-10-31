@@ -1,0 +1,91 @@
+.Contact {
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.852);
+    padding: 0px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cleft {
+    height: 100%;
+    width: 80%;
+    color: white;
+    padding: 2% 3%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Cleft h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Cleft p {
+    color: rgba(255, 255, 255, 0.888);
+}
+
+.Cleft ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Cleft ul li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.888);
+}
+
+.Cright {
+    padding: 2% 10%;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name,
+.email,
+.phone {
+    width: 100%;
+}
+
+.Cright input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius:5px;
+    padding: 5px;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.Cright textarea {
+    width: 100%;
+    height: 150px;
+       border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 1.1em;
+}
+
+
+
+
+.Text{
+    margin-top: 10px;
+}
+
+.disable{
+    display: none;
+}

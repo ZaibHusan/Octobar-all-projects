@@ -1,0 +1,106 @@
+.Form {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.container {
+    width: 90vw;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    /* Transparent white */
+    backdrop-filter: blur(10px);
+    /* Glass blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Subtle border */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    /* 3D shadow */
+    color: #fff;
+    /* Text visible on gradient bg */
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 60vh;
+    max-width: 500px;
+}
+h1{
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input{
+    width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+    /* Semi-transparent background */
+  background: rgba(255, 255, 255, 0.2);
+
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #fff;
+        /* Subtle border */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+input::placeholder {
+    color: #ddd;
+    font-size: 1.2em;
+}
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+gap: 10px;
+}
+button {
+    width: 50%;
+padding: 10px 0px;
+border: none;
+border-radius: 8px;
+font-size: 1.2rem;
+cursor: pointer;
+}
+.gray{
+
+ background: linear-gradient(135deg, #e30a0a 0%, #ddd5e4 100%);
+  
+ }
+.forgot span {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.forgot {
+ font-weight: bold
+}
+ 

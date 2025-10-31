@@ -1,0 +1,233 @@
+.Video {
+    width: 100%;
+    height: 89vh;
+    margin-top: 11vh;
+    overflow-y: auto;
+    color: white;
+}
+
+.video {
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* Custom Scrollbar ONLY for .video */
+.Video::-webkit-scrollbar {
+    width: 15px;
+}
+
+.Video::-webkit-scrollbar-track {
+    background: #0f0f0f;
+    /* dark track */
+}
+
+.Video::-webkit-scrollbar-thumb {
+    background: #606060;
+    /* gray thumb */
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.Video::-webkit-scrollbar-thumb:hover {
+    background: #909090;
+    /* lighter gray on hover */
+}
+
+/* Firefox support */
+.Video {
+    scrollbar-width: thin;
+    scrollbar-color: #606060 #0f0f0f;
+}
+
+
+.video_details {
+    padding: 0 5vw;
+    height: 100%;
+}
+
+.video_part {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.video_part1 {
+    width: 70%;
+    height: 100%;
+
+}
+
+
+
+.title {
+    font-size: 1.2em;
+    height: 10vh;
+    padding: 20px 10px;
+}
+
+.profile_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.profile_icons {
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+.porfile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.8em;
+}
+
+.porfile img {
+    border-radius: 50%;
+}
+
+.porfile .channel {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+}
+
+.porfile button {
+    border: none;
+    background-color: white;
+    color: black;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+
+.porfile button:hover {
+    background-color: rgba(255, 255, 255, 0.929);
+}
+
+.like,
+.share,
+.download,
+.clips,
+.other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #272727;
+    cursor: pointer;
+}
+
+.like:hover,
+.share:hover,
+.download:hover,
+.clips:hover,
+.other:hover {
+    background-color: #7e7979b9;
+    cursor: pointer;
+    /* optional: makes it feel clickable */
+}
+
+
+
+
+.profile_icons img {
+
+    width: 20px;
+    height: 20px;
+}
+
+.other img {
+    width: 1.5em;
+    height: 1.2em;
+}
+
+.channel p {
+    color: rgba(255, 255, 255, 0.782);
+}
+
+
+
+
+.description {
+    width: 100%;
+    height: 15vh;
+    background-color: #272727;
+    padding: 10px;
+}
+
+.description p:last-child {
+    margin-top: 30px;
+}
+
+.comment_N {
+    width: 100%;
+    height: 5vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.81);
+
+
+}
+
+.sort img {
+    width: 1.5em;
+    height: 1.5em;
+    object-fit: cover;
+}
+
+
+.comment_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+.video_part2 {
+    width: 30%;
+    height: 15vh;
+    font-size: 1em;
+}
+
+.video_details_none {
+    display: none;
+}
+
+.video_none {
+    height: 100%;
+}

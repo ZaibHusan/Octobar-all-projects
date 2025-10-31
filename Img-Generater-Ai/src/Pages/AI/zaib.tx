@@ -1,0 +1,60 @@
+import React, { useState } from 'react'
+import "./Ai.css"
+import img from "./download.jpg"
+
+export default function Ai() {
+  const [prompt, setprompt] = useState("A fantasy landscape, trending on artstation");
+  const [Url, setUrl] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const generatePath = async () => {
+    setLoading(true);
+    await Api_call();
+    setLoading(false);
+  };
+
+  const Handlechange = (e) => {
+    setprompt(e.target.value);
+  }
+
+  const Api_call = async () => {
+    const API_KEY = "TVZhJ2GXRIfP6jIVohCej48t15FpET304vebHjWZvD9AlcuK8GxGMXQY";
+    let res = await fetch(`https://api.pexels.com/v1/search?query=${prompt}&per_page=1`, {
+      headers: {
+        Authorization: API_KEY
+      }
+    });
+    let parsedData = await res.json();
+    if (parsedData.photos && parsedData.photos.length > 0) {
+      setUrl(parsedData.photos[0].src.original);
+    } else {
+      setUrl("");
+    }
+  };
+
+  return (
+    <div className='Ai'>
+      <div className="h1"> <h1>Convert Image to Text</h1></div>
+      <div className="boxs">
+        <div className="boxs1">
+          <h2>Describe your prompt in the box below:</h2>
+          <textarea name="" id="" cols="30" rows="10" onChange={Handlechange} placeholder='A fantasy landscape, trending on artstation'></textarea>
+          <button onClick={generatePath}>Generate</button>
+        </div>
+        <div className="boxs2">
+          <h2>Generated Image:</h2>
+          <div className="generated-img">
+            {loading ? (
+              <div>Loading...</div>
+            ) : (
+              <img src={Url ? Url : img} alt="" style={{ maxWidth: '100%', height: 'auto' }} />
+            )}
+          </div>
+          <div className="download">
+            <button>Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
